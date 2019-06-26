@@ -1,10 +1,10 @@
-pdf('nearby_values.pdf')
+pdf('kmeans_clustering.pdf')
 
 
 #read csv file in the working directory
-set1 = read.csv(file="R/EM/training_set_1.csv", header=TRUE, sep=";") 
-set2 = read.csv(file="R/EM/training_set_2.csv", header=TRUE, sep=";")  
-set3 = read.csv(file="R/EM/training_set_3.csv", header=TRUE, sep=";")  
+set1 = read.csv(file="R/kmeans/training_set_1.csv", header=TRUE, sep=";") 
+set2 = read.csv(file="R/kmeans/training_set_2.csv", header=TRUE, sep=";")  
+set3 = read.csv(file="R/kmeans/training_set_3.csv", header=TRUE, sep=";")  
 
 
 
